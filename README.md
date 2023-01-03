@@ -22,6 +22,8 @@ const {
     play,
   } = useVideo(videoElement);
   
+  const SRC = `{{YOUR VIDEO SRC}}`
+  
 
 // JSX
  <video
@@ -32,7 +34,7 @@ const {
   onTimeUpdate={handleOnTimeUpdate}
   ref={videoElement}
 >
-  <source src={smallVideo} type="video/mp4"></source>
+  <source src={SRC} type="video/mp4"></source>
 </video>
 
 ```
