@@ -1,2 +1,7 @@
-# use-video-react-hook
-Simple hook for handling videos in react.js
+# React hook for handling videos
+
+## Usage
+
+```typescript
+asd
+```
